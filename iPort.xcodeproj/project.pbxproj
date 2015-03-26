@@ -418,6 +418,7 @@
 				18A47B9E1AC3E1BC004E1F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18A47B9F1AC3E1BC004E1F73 /* Build configuration list for PBXNativeTarget "iPortTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +427,7 @@
 				18A47BA11AC3E1BC004E1F73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
