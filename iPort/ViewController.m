@@ -16,6 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImageView *test = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 29, 29)];
+    test.image = [UIImage imageNamed:@"29x29"];
+    [self.view addSubview:test];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

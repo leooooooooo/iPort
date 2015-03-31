@@ -42,6 +42,8 @@
 		18A47B921AC3E1BC004E1F73 /* iPortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A47B971AC3E1BC004E1F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18A47B981AC3E1BC004E1F73 /* iPortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPortTests.m; sourceTree = "<group>"; };
+		B328B29F1ACA2D7E00554FAC /* iPort_aps_development.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPort_aps_development.cer; sourceTree = "<group>"; };
+		B328B2A01ACA2D7E00554FAC /* iPort_aps_production.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPort_aps_production.cer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +85,8 @@
 		18A47B781AC3E1B9004E1F73 /* iPort */ = {
 			isa = PBXGroup;
 			children = (
-				18A47B7D1AC3E1BB004E1F73 /* AppDelegate.h */,
-				18A47B7E1AC3E1BC004E1F73 /* AppDelegate.m */,
-				18A47B831AC3E1BC004E1F73 /* ViewController.h */,
-				18A47B841AC3E1BC004E1F73 /* ViewController.m */,
-				18A47B861AC3E1BC004E1F73 /* Main.storyboard */,
-				18A47B891AC3E1BC004E1F73 /* Images.xcassets */,
-				18A47B8B1AC3E1BC004E1F73 /* LaunchScreen.xib */,
-				18A47B801AC3E1BC004E1F73 /* iPort.xcdatamodeld */,
+				B328B29E1ACA2D7000554FAC /* APNS */,
+				B328B2A11ACA2FAF00554FAC /* Main */,
 				18A47B791AC3E1BB004E1F73 /* Supporting Files */,
 			);
 			path = iPort;
@@ -99,6 +95,14 @@
 		18A47B791AC3E1BB004E1F73 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18A47B7D1AC3E1BB004E1F73 /* AppDelegate.h */,
+				18A47B7E1AC3E1BC004E1F73 /* AppDelegate.m */,
+				18A47B831AC3E1BC004E1F73 /* ViewController.h */,
+				18A47B841AC3E1BC004E1F73 /* ViewController.m */,
+				18A47B861AC3E1BC004E1F73 /* Main.storyboard */,
+				18A47B891AC3E1BC004E1F73 /* Images.xcassets */,
+				18A47B8B1AC3E1BC004E1F73 /* LaunchScreen.xib */,
+				18A47B801AC3E1BC004E1F73 /* iPort.xcdatamodeld */,
 				18A47B7A1AC3E1BB004E1F73 /* Info.plist */,
 				18A47B7B1AC3E1BB004E1F73 /* main.m */,
 			);
@@ -120,6 +124,23 @@
 				18A47B971AC3E1BC004E1F73 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B328B29E1ACA2D7000554FAC /* APNS */ = {
+			isa = PBXGroup;
+			children = (
+				B328B29F1ACA2D7E00554FAC /* iPort_aps_development.cer */,
+				B328B2A01ACA2D7E00554FAC /* iPort_aps_production.cer */,
+			);
+			name = APNS;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B328B2A11ACA2FAF00554FAC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,11 +371,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = iPort/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40ec968f-1e2e-4aac-a2bf-498f454a0291";
 			};
 			name = Debug;
 		};
@@ -362,11 +384,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = iPort/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40ec968f-1e2e-4aac-a2bf-498f454a0291";
 			};
 			name = Release;
 		};
