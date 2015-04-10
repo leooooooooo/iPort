@@ -25,12 +25,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    if (REUIKitIsFlatMode()) {
+    /*if (REUIKitIsFlatMode()) {
         [self.navigationBar performSelector:@selector(setBarTintColor:) withObject:[UIColor colorWithRed:0/255.0 green:213/255.0 blue:161/255.0 alpha:1]];
         self.navigationBar.tintColor = [UIColor whiteColor];
     } else {
         self.navigationBar.tintColor = [UIColor colorWithRed:0 green:179/255.0 blue:134/255.0 alpha:1];
-    }
+    }*/
+    
+
     
     __typeof (self) __weak weakSelf = self;
     REMenuItem *Index = [[REMenuItem alloc] initWithTitle:@"首页"
@@ -39,7 +41,7 @@
                                                highlightedImage:nil
                                                          action:^(REMenuItem *item) {
                                                              NSLog(@"Item: %@", item);
-                                                             IndexViewController *controller = [[IndexViewController alloc] init];
+                                                             RootViewController *controller = [[RootViewController alloc] init];
                                                              [weakSelf setViewControllers:@[controller] animated:NO];
                                                          }];
     
@@ -76,6 +78,15 @@
                                                              [weakSelf setViewControllers:@[controller] animated:NO];
                                                          }];
     
+    REMenuItem *LoginOut = [[REMenuItem alloc] initWithTitle:@"登出"
+                                                            image:[UIImage imageNamed:@"Icon_Profile"]
+                                                 highlightedImage:nil
+                                                           action:^(REMenuItem *item) {
+                                                               NSLog(@"Item: %@", item);
+                                                               DeviceBindingViewController *controller = [[DeviceBindingViewController alloc] init];
+                                                               [weakSelf setViewControllers:@[controller] animated:NO];
+                                                           }];
+    
     // You can also assign a custom view for any particular item
     // Uncomment the code below and add `customViewItem` to `initWithItems` array, for example:
     // self.menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem, customViewItem]]
@@ -93,8 +104,9 @@
     ChangePersonInfo.tag = 1;
     ChangePassword.tag = 2;
     DeviceBinding.tag = 3;
+    LoginOut.tag =4;
     
-    self.menu = [[REMenu alloc] initWithItems:@[Index, ChangePersonInfo, ChangePassword, DeviceBinding]];
+    self.menu = [[REMenu alloc] initWithItems:@[Index, ChangePersonInfo, ChangePassword, DeviceBinding,LoginOut]];
     
     // Background view
     //
