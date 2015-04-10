@@ -18,6 +18,9 @@
 		B328B3071ACB948200554FAC /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B328B3051ACB948200554FAC /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B328B3081ACB948200554FAC /* 用法.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B328B3061ACB948200554FAC /* 用法.rtf */; };
 		B328B3131ACB963C00554FAC /* DeviceSender.m in Sources */ = {isa = PBXBuildFile; fileRef = B328B3121ACB963C00554FAC /* DeviceSender.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B36B6A0D1AD7B33D00574A8F /* ChangePersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B6A0C1AD7B33D00574A8F /* ChangePersonInfoViewController.m */; };
+		B36B6A101AD7B34800574A8F /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B6A0F1AD7B34800574A8F /* ChangePasswordViewController.m */; };
+		B36B6A131AD7B35800574A8F /* DeviceBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B6A121AD7B35800574A8F /* DeviceBindingViewController.m */; };
 		B3BAAA271AD4B535005C6497 /* CLTreeView_LEVEL0_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAAA091AD4B535005C6497 /* CLTreeView_LEVEL0_Cell.m */; };
 		B3BAAA281AD4B535005C6497 /* CLTreeView_LEVEL0_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAAA0B1AD4B535005C6497 /* CLTreeView_LEVEL0_Model.m */; };
 		B3BAAA291AD4B535005C6497 /* CLTreeView_LEVEL1_Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAAA0D1AD4B535005C6497 /* CLTreeView_LEVEL1_Cell.m */; };
@@ -41,6 +44,14 @@
 		B3BAAA3C1AD4B535005C6497 /* Level2_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BAAA261AD4B535005C6497 /* Level2_Cell.xib */; };
 		B3BAAA3F1AD4BA87005C6497 /* FunctionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAAA3E1AD4BA87005C6497 /* FunctionListViewController.m */; };
 		B3BAAA421AD51B26005C6497 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAAA411AD51B26005C6497 /* IndexViewController.m */; };
+		B3EC8FBC1AD6582E00CAC4C8 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FBB1AD6582E00CAC4C8 /* KxMenu.m */; };
+		B3EC8FDB1AD776FA00CAC4C8 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FD21AD776FA00CAC4C8 /* RECommonFunctions.m */; };
+		B3EC8FDC1AD776FA00CAC4C8 /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FD41AD776FA00CAC4C8 /* REMenu.m */; };
+		B3EC8FDD1AD776FA00CAC4C8 /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FD61AD776FA00CAC4C8 /* REMenuContainerView.m */; };
+		B3EC8FDE1AD776FA00CAC4C8 /* REMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FD81AD776FA00CAC4C8 /* REMenuItem.m */; };
+		B3EC8FDF1AD776FA00CAC4C8 /* REMenuItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FDA1AD776FA00CAC4C8 /* REMenuItemView.m */; };
+		B3EC8FE21AD7774800CAC4C8 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FE11AD7774800CAC4C8 /* NavigationViewController.m */; };
+		B3EC8FE51AD778C200CAC4C8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FE41AD778C200CAC4C8 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +87,12 @@
 		B328B3091ACB94E600554FAC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B328B3111ACB963C00554FAC /* DeviceSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSender.h; sourceTree = "<group>"; };
 		B328B3121ACB963C00554FAC /* DeviceSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSender.m; sourceTree = "<group>"; };
+		B36B6A0B1AD7B33D00574A8F /* ChangePersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePersonInfoViewController.h; sourceTree = "<group>"; };
+		B36B6A0C1AD7B33D00574A8F /* ChangePersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePersonInfoViewController.m; sourceTree = "<group>"; };
+		B36B6A0E1AD7B34800574A8F /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		B36B6A0F1AD7B34800574A8F /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		B36B6A111AD7B35800574A8F /* DeviceBindingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceBindingViewController.h; sourceTree = "<group>"; };
+		B36B6A121AD7B35800574A8F /* DeviceBindingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceBindingViewController.m; sourceTree = "<group>"; };
 		B3BAAA071AD4B535005C6497 /* CLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTree.h; sourceTree = "<group>"; };
 		B3BAAA081AD4B535005C6497 /* CLTreeView_LEVEL0_Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTreeView_LEVEL0_Cell.h; sourceTree = "<group>"; };
 		B3BAAA091AD4B535005C6497 /* CLTreeView_LEVEL0_Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTreeView_LEVEL0_Cell.m; sourceTree = "<group>"; };
@@ -109,6 +126,22 @@
 		B3BAAA3E1AD4BA87005C6497 /* FunctionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionListViewController.m; sourceTree = "<group>"; };
 		B3BAAA401AD51B26005C6497 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
 		B3BAAA411AD51B26005C6497 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		B3EC8FBA1AD6582E00CAC4C8 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		B3EC8FBB1AD6582E00CAC4C8 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		B3EC8FD11AD776F900CAC4C8 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		B3EC8FD21AD776FA00CAC4C8 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		B3EC8FD31AD776FA00CAC4C8 /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
+		B3EC8FD41AD776FA00CAC4C8 /* REMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenu.m; sourceTree = "<group>"; };
+		B3EC8FD51AD776FA00CAC4C8 /* REMenuContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuContainerView.h; sourceTree = "<group>"; };
+		B3EC8FD61AD776FA00CAC4C8 /* REMenuContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuContainerView.m; sourceTree = "<group>"; };
+		B3EC8FD71AD776FA00CAC4C8 /* REMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItem.h; sourceTree = "<group>"; };
+		B3EC8FD81AD776FA00CAC4C8 /* REMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItem.m; sourceTree = "<group>"; };
+		B3EC8FD91AD776FA00CAC4C8 /* REMenuItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenuItemView.h; sourceTree = "<group>"; };
+		B3EC8FDA1AD776FA00CAC4C8 /* REMenuItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REMenuItemView.m; sourceTree = "<group>"; };
+		B3EC8FE01AD7774800CAC4C8 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B3EC8FE11AD7774800CAC4C8 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B3EC8FE31AD778C200CAC4C8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B3EC8FE41AD778C200CAC4C8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,12 +239,17 @@
 		B328B2A11ACA2FAF00554FAC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B36B6A0A1AD7B30600574A8F /* PersonInfo */,
 				B328B2FF1ACB93FD00554FAC /* LoginViewController.h */,
 				B328B3001ACB93FD00554FAC /* LoginViewController.m */,
 				B3BAAA3D1AD4BA87005C6497 /* FunctionListViewController.h */,
 				B3BAAA3E1AD4BA87005C6497 /* FunctionListViewController.m */,
 				B3BAAA401AD51B26005C6497 /* IndexViewController.h */,
 				B3BAAA411AD51B26005C6497 /* IndexViewController.m */,
+				B3EC8FE01AD7774800CAC4C8 /* NavigationViewController.h */,
+				B3EC8FE11AD7774800CAC4C8 /* NavigationViewController.m */,
+				B3EC8FE31AD778C200CAC4C8 /* RootViewController.h */,
+				B3EC8FE41AD778C200CAC4C8 /* RootViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -219,6 +257,8 @@
 		B328B3021ACB943B00554FAC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B3EC8FC11AD776CD00CAC4C8 /* REMenu */,
+				B3EC8FB91AD6582400CAC4C8 /* KxMenu */,
 				B3BAAA061AD4B535005C6497 /* CLTreeView */,
 				B328B3031ACB948200554FAC /* KeyChainItemWrapper */,
 			);
@@ -233,6 +273,19 @@
 				B328B3061ACB948200554FAC /* 用法.rtf */,
 			);
 			path = KeyChainItemWrapper;
+			sourceTree = "<group>";
+		};
+		B36B6A0A1AD7B30600574A8F /* PersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				B36B6A0B1AD7B33D00574A8F /* ChangePersonInfoViewController.h */,
+				B36B6A0C1AD7B33D00574A8F /* ChangePersonInfoViewController.m */,
+				B36B6A0E1AD7B34800574A8F /* ChangePasswordViewController.h */,
+				B36B6A0F1AD7B34800574A8F /* ChangePasswordViewController.m */,
+				B36B6A111AD7B35800574A8F /* DeviceBindingViewController.h */,
+				B36B6A121AD7B35800574A8F /* DeviceBindingViewController.m */,
+			);
+			name = PersonInfo;
 			sourceTree = "<group>";
 		};
 		B3BAAA061AD4B535005C6497 /* CLTreeView */ = {
@@ -277,6 +330,32 @@
 				B3BAAA231AD4B535005C6497 /* the_arrow.png */,
 			);
 			path = image;
+			sourceTree = "<group>";
+		};
+		B3EC8FB91AD6582400CAC4C8 /* KxMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC8FBA1AD6582E00CAC4C8 /* KxMenu.h */,
+				B3EC8FBB1AD6582E00CAC4C8 /* KxMenu.m */,
+			);
+			name = KxMenu;
+			sourceTree = "<group>";
+		};
+		B3EC8FC11AD776CD00CAC4C8 /* REMenu */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC8FD11AD776F900CAC4C8 /* RECommonFunctions.h */,
+				B3EC8FD21AD776FA00CAC4C8 /* RECommonFunctions.m */,
+				B3EC8FD31AD776FA00CAC4C8 /* REMenu.h */,
+				B3EC8FD41AD776FA00CAC4C8 /* REMenu.m */,
+				B3EC8FD51AD776FA00CAC4C8 /* REMenuContainerView.h */,
+				B3EC8FD61AD776FA00CAC4C8 /* REMenuContainerView.m */,
+				B3EC8FD71AD776FA00CAC4C8 /* REMenuItem.h */,
+				B3EC8FD81AD776FA00CAC4C8 /* REMenuItem.m */,
+				B3EC8FD91AD776FA00CAC4C8 /* REMenuItemView.h */,
+				B3EC8FDA1AD776FA00CAC4C8 /* REMenuItemView.m */,
+			);
+			name = REMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,18 +476,29 @@
 			files = (
 				B3BAAA291AD4B535005C6497 /* CLTreeView_LEVEL1_Cell.m in Sources */,
 				B3BAAA2E1AD4B535005C6497 /* CLTreeViewNode.m in Sources */,
+				B3EC8FE51AD778C200CAC4C8 /* RootViewController.m in Sources */,
+				B36B6A101AD7B34800574A8F /* ChangePasswordViewController.m in Sources */,
+				B36B6A131AD7B35800574A8F /* DeviceBindingViewController.m in Sources */,
 				18A47B821AC3E1BC004E1F73 /* iPort.xcdatamodeld in Sources */,
+				B3EC8FDF1AD776FA00CAC4C8 /* REMenuItemView.m in Sources */,
+				B3EC8FDB1AD776FA00CAC4C8 /* RECommonFunctions.m in Sources */,
+				B3EC8FDC1AD776FA00CAC4C8 /* REMenu.m in Sources */,
 				B328B3131ACB963C00554FAC /* DeviceSender.m in Sources */,
 				B3BAAA2C1AD4B535005C6497 /* CLTreeView_LEVEL2_Model.m in Sources */,
 				18A47B7F1AC3E1BC004E1F73 /* AppDelegate.m in Sources */,
 				18A47B7C1AC3E1BB004E1F73 /* main.m in Sources */,
 				B328B3071ACB948200554FAC /* KeychainItemWrapper.m in Sources */,
 				B3BAAA281AD4B535005C6497 /* CLTreeView_LEVEL0_Model.m in Sources */,
+				B3EC8FDE1AD776FA00CAC4C8 /* REMenuItem.m in Sources */,
+				B3EC8FDD1AD776FA00CAC4C8 /* REMenuContainerView.m in Sources */,
 				B3BAAA271AD4B535005C6497 /* CLTreeView_LEVEL0_Cell.m in Sources */,
 				B3BAAA2A1AD4B535005C6497 /* CLTreeView_LEVEL1_Model.m in Sources */,
 				B3BAAA3F1AD4BA87005C6497 /* FunctionListViewController.m in Sources */,
+				B3EC8FE21AD7774800CAC4C8 /* NavigationViewController.m in Sources */,
 				B328B3011ACB93FD00554FAC /* LoginViewController.m in Sources */,
+				B3EC8FBC1AD6582E00CAC4C8 /* KxMenu.m in Sources */,
 				B3BAAA2B1AD4B535005C6497 /* CLTreeView_LEVEL2_Cell.m in Sources */,
+				B36B6A0D1AD7B33D00574A8F /* ChangePersonInfoViewController.m in Sources */,
 				B3BAAA421AD51B26005C6497 /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,7 +625,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = iPort/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "40ec968f-1e2e-4aac-a2bf-498f454a0291";
@@ -548,7 +638,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Lianyungang Port Group Communications and Information Engineering Company";
 				INFOPLIST_FILE = iPort/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "40ec968f-1e2e-4aac-a2bf-498f454a0291";

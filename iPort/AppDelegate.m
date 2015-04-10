@@ -20,6 +20,7 @@
 @synthesize DeviceBinding;
 @synthesize Code_Company;
 @synthesize Code_Department;
+@synthesize UserName;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -51,6 +52,7 @@
     DeviceSender * sender = [[DeviceSender alloc]initWithDelegate:self ];
     [sender sendDeviceToPushServer:token];
 }
+
 
 
 /** 接收注册推送通知功能时出现的错误，并做相关处理*/

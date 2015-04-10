@@ -11,7 +11,7 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D1EEE166BEA8F430E16867394B470744F04A9EDE</key>
-		<string>https://github.com/leooooooooo/iPort.git</string>
+		<string>ssh://rjzxmac.local/git/iPort.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>iPort.xcodeproj</string>
@@ -21,7 +21,7 @@
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/leooooooooo/iPort.git</string>
+	<string>ssh://rjzxmac.local/git/iPort.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>

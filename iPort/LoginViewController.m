@@ -139,6 +139,7 @@
                 delegate.Code_User=[Info objectForKey:@"Code_User"] ;
                 delegate.Code_Department=[Info objectForKey:@"Code_Department"] ;
                 delegate.Code_Company=[Info objectForKey:@"Code_Company"] ;
+                delegate.UserName=[Info objectForKey:@"UserName"] ;
                 
                 [self performSegueWithIdentifier:@"login" sender:self];
                 

@@ -21,6 +21,7 @@
 @property(retain,nonatomic) NSString *DeviceBinding;
 @property(retain,nonatomic) NSString *Code_Company;
 @property(retain,nonatomic) NSString *Code_Department;
+@property(retain,nonatomic) NSString *UserName;
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
