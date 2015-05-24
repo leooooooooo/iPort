@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "REMenu.h"
 
-@interface RootViewController : UIViewController
+@interface RootViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import "NavigationViewController.h"
-#import "IndexViewController.h"
 #import "ChangePasswordViewController.h"
 #import "ChangePersonInfoViewController.h"
 #import "DeviceBindingViewController.h"
@@ -81,11 +80,7 @@
     REMenuItem *LoginOut = [[REMenuItem alloc] initWithTitle:@"登出"
                                                             image:[UIImage imageNamed:@"Icon_Profile"]
                                                  highlightedImage:nil
-                                                           action:^(REMenuItem *item) {
-                                                               NSLog(@"Item: %@", item);
-                                                               DeviceBindingViewController *controller = [[DeviceBindingViewController alloc] init];
-                                                               [weakSelf setViewControllers:@[controller] animated:NO];
-                                                           }];
+                                                      action:^(REMenuItem *item) {[self Logout];}];
     
     // You can also assign a custom view for any particular item
     // Uncomment the code below and add `customViewItem` to `initWithItems` array, for example:
@@ -141,13 +136,26 @@
     
     
     [self.menu setClosePreparationBlock:^{
-        NSLog(@"Menu will close");
+        //NSLog(@"Menu will close");
     }];
     
     [self.menu setCloseCompletionHandler:^{
-        NSLog(@"Menu did close");
+        //NSLog(@"Menu did close");
     }];
     
+}
+
+-(void)Logout
+{
+    AppDelegate *delegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
+    delegate.DeviceToken = nil;
+    delegate.Code_User= nil;
+    delegate.DeviceBinding= nil;
+    delegate.Code_Company= nil;
+    delegate.Code_Department= nil;
+    delegate.UserName= nil;
+    [self dismissViewControllerAnimated:YES completion:nil];
+    NSLog(@"Logout Success!");
 }
 
 - (void)toggleMenu
@@ -162,22 +170,22 @@
 
 -(void)willOpenMenu:(REMenu *)menu
 {
-    NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
+    //NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
 }
 
 -(void)didOpenMenu:(REMenu *)menu
 {
-    NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
+    //NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
 }
 
 -(void)willCloseMenu:(REMenu *)menu
 {
-    NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
+    //NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
 }
 
 -(void)didCloseMenu:(REMenu *)menu
 {
-    NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
+    //NSLog(@"Delegate method: %@", NSStringFromSelector(_cmd));
 }
 
 @end

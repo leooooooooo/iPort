@@ -34,6 +34,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+
+    
     self.ID.layer.cornerRadius=5;
     self.ID.borderStyle=UITextBorderStyleRoundedRect;
     self.PW.layer.cornerRadius=5;
@@ -101,6 +104,8 @@
         self.autologinswitch.on = NO;
     }
 
+    //跳过登录
+    //[self performSegueWithIdentifier:@"login" sender:self];
 }
 
 
@@ -140,6 +145,7 @@
                 delegate.Code_Department=[Info objectForKey:@"Code_Department"] ;
                 delegate.Code_Company=[Info objectForKey:@"Code_Company"] ;
                 delegate.UserName=[Info objectForKey:@"UserName"] ;
+                delegate.Department = [Info objectForKey:@"Department"];
                 
                 [self performSegueWithIdentifier:@"login" sender:self];
                 

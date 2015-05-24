@@ -22,7 +22,7 @@
 @property(retain,nonatomic) NSString *Code_Company;
 @property(retain,nonatomic) NSString *Code_Department;
 @property(retain,nonatomic) NSString *UserName;
-
+@property(retain,nonatomic) NSString *Department;
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
 

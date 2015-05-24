@@ -11,6 +11,9 @@
 #define alert_tag_push 10
 
 @interface AppDelegate ()
+{
+    id<DeviceSenderDelegate> DeviceSenderDelegate;
+}
 -(void)alertNotice:(NSString *)title withMSG:(NSString *)msg cancleButtonTitle:(NSString *)cancleTitle otherButtonTitle:(NSString *)otherTitle;
 @end
 
@@ -21,6 +24,7 @@
 @synthesize Code_Company;
 @synthesize Code_Department;
 @synthesize UserName;
+@synthesize Department;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
@@ -49,7 +53,7 @@
     //    [self alertNotice:@"" withMSG:[NSString stringWithFormat:@"从苹果推送服务器返回的设备标识:%@",deviceToken] cancleButtonTitle:@"Ok" otherButtonTitle:@""];
     
     //self.deviceToken=[[NSString alloc]initWithData:deviceToken encoding:NSUTF8StringEncoding];// deviceToken;
-    DeviceSender * sender = [[DeviceSender alloc]initWithDelegate:self ];
+    DeviceSender * sender = [[DeviceSender alloc]initWithDelegate:DeviceSenderDelegate];
     [sender sendDeviceToPushServer:token];
 }
 

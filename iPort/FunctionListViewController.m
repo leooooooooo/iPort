@@ -21,6 +21,7 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
     self.myTableView = [[UITableView alloc]init];
     self.myTableView.dataSource = self;
@@ -229,7 +230,7 @@
     [self reloadDataForDisplayArrayChangeAt:indexPath.row];//修改cell的状态(关闭或打开)
     if(node.type == 2){
         //处理叶子节点选中，此处需要自定义
-        CLTreeView_LEVEL2_Cell *cell = [tableView cellForRowAtIndexPath:indexPath];
+        CLTreeView_LEVEL2_Cell *cell = (CLTreeView_LEVEL2_Cell *)[tableView cellForRowAtIndexPath:indexPath];
         
         NSLog(cell.name.text,nil);
     }

@@ -12,7 +12,7 @@
 #import "AppDelegate.h"
 
 @interface DeviceSender()
--(void) sendRequestByGet:(NSString*)urlString;
+//-(void) sendRequestByGet:(NSString*)urlString;
 @end
 
 
@@ -39,8 +39,8 @@
 
 -(void) sendDeviceToPushServer:(NSString*)deviceToken
 {
-    AppDelegate *delegate=[(AppDelegate *)[UIApplication sharedApplication]delegate];
-    delegate.deviceToken=[[deviceToken substringWithRange:NSMakeRange(1, deviceToken.length-2)]stringByReplacingOccurrencesOfString:@" " withString:@""];
+    AppDelegate *Adelegate=(AppDelegate *)[[UIApplication sharedApplication]delegate];
+    Adelegate.DeviceToken=[[deviceToken substringWithRange:NSMakeRange(1, deviceToken.length-2)]stringByReplacingOccurrencesOfString:@" " withString:@""];
 }
 
 

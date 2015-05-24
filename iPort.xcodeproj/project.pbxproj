@@ -18,6 +18,8 @@
 		B328B3071ACB948200554FAC /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = B328B3051ACB948200554FAC /* KeychainItemWrapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B328B3081ACB948200554FAC /* 用法.rtf in Resources */ = {isa = PBXBuildFile; fileRef = B328B3061ACB948200554FAC /* 用法.rtf */; };
 		B328B3131ACB963C00554FAC /* DeviceSender.m in Sources */ = {isa = PBXBuildFile; fileRef = B328B3121ACB963C00554FAC /* DeviceSender.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B32ABB641AF9ACA30030DD3C /* UIImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B32ABB611AF9ACA30030DD3C /* UIImageButton.m */; };
+		B32ABB651AF9ACA30030DD3C /* UITableGridViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B32ABB631AF9ACA30030DD3C /* UITableGridViewCell.m */; };
 		B36B6A0D1AD7B33D00574A8F /* ChangePersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B6A0C1AD7B33D00574A8F /* ChangePersonInfoViewController.m */; };
 		B36B6A101AD7B34800574A8F /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B6A0F1AD7B34800574A8F /* ChangePasswordViewController.m */; };
 		B36B6A131AD7B35800574A8F /* DeviceBindingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B6A121AD7B35800574A8F /* DeviceBindingViewController.m */; };
@@ -43,8 +45,6 @@
 		B3BAAA3B1AD4B535005C6497 /* Level1_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BAAA251AD4B535005C6497 /* Level1_Cell.xib */; };
 		B3BAAA3C1AD4B535005C6497 /* Level2_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3BAAA261AD4B535005C6497 /* Level2_Cell.xib */; };
 		B3BAAA3F1AD4BA87005C6497 /* FunctionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAAA3E1AD4BA87005C6497 /* FunctionListViewController.m */; };
-		B3BAAA421AD51B26005C6497 /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BAAA411AD51B26005C6497 /* IndexViewController.m */; };
-		B3EC8FBC1AD6582E00CAC4C8 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FBB1AD6582E00CAC4C8 /* KxMenu.m */; };
 		B3EC8FDB1AD776FA00CAC4C8 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FD21AD776FA00CAC4C8 /* RECommonFunctions.m */; };
 		B3EC8FDC1AD776FA00CAC4C8 /* REMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FD41AD776FA00CAC4C8 /* REMenu.m */; };
 		B3EC8FDD1AD776FA00CAC4C8 /* REMenuContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3EC8FD61AD776FA00CAC4C8 /* REMenuContainerView.m */; };
@@ -87,6 +87,10 @@
 		B328B3091ACB94E600554FAC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		B328B3111ACB963C00554FAC /* DeviceSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceSender.h; sourceTree = "<group>"; };
 		B328B3121ACB963C00554FAC /* DeviceSender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceSender.m; sourceTree = "<group>"; };
+		B32ABB601AF9ACA30030DD3C /* UIImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageButton.h; sourceTree = "<group>"; };
+		B32ABB611AF9ACA30030DD3C /* UIImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageButton.m; sourceTree = "<group>"; };
+		B32ABB621AF9ACA30030DD3C /* UITableGridViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableGridViewCell.h; sourceTree = "<group>"; };
+		B32ABB631AF9ACA30030DD3C /* UITableGridViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableGridViewCell.m; sourceTree = "<group>"; };
 		B36B6A0B1AD7B33D00574A8F /* ChangePersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePersonInfoViewController.h; sourceTree = "<group>"; };
 		B36B6A0C1AD7B33D00574A8F /* ChangePersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePersonInfoViewController.m; sourceTree = "<group>"; };
 		B36B6A0E1AD7B34800574A8F /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
@@ -124,10 +128,6 @@
 		B3BAAA261AD4B535005C6497 /* Level2_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Level2_Cell.xib; sourceTree = "<group>"; };
 		B3BAAA3D1AD4BA87005C6497 /* FunctionListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionListViewController.h; sourceTree = "<group>"; };
 		B3BAAA3E1AD4BA87005C6497 /* FunctionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionListViewController.m; sourceTree = "<group>"; };
-		B3BAAA401AD51B26005C6497 /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
-		B3BAAA411AD51B26005C6497 /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
-		B3EC8FBA1AD6582E00CAC4C8 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
-		B3EC8FBB1AD6582E00CAC4C8 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
 		B3EC8FD11AD776F900CAC4C8 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
 		B3EC8FD21AD776FA00CAC4C8 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		B3EC8FD31AD776FA00CAC4C8 /* REMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REMenu.h; sourceTree = "<group>"; };
@@ -239,17 +239,10 @@
 		B328B2A11ACA2FAF00554FAC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B388FB001ADB94E8002D2513 /* Index */,
 				B36B6A0A1AD7B30600574A8F /* PersonInfo */,
 				B328B2FF1ACB93FD00554FAC /* LoginViewController.h */,
 				B328B3001ACB93FD00554FAC /* LoginViewController.m */,
-				B3BAAA3D1AD4BA87005C6497 /* FunctionListViewController.h */,
-				B3BAAA3E1AD4BA87005C6497 /* FunctionListViewController.m */,
-				B3BAAA401AD51B26005C6497 /* IndexViewController.h */,
-				B3BAAA411AD51B26005C6497 /* IndexViewController.m */,
-				B3EC8FE01AD7774800CAC4C8 /* NavigationViewController.h */,
-				B3EC8FE11AD7774800CAC4C8 /* NavigationViewController.m */,
-				B3EC8FE31AD778C200CAC4C8 /* RootViewController.h */,
-				B3EC8FE41AD778C200CAC4C8 /* RootViewController.m */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -257,8 +250,8 @@
 		B328B3021ACB943B00554FAC /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B32ABB5F1AF9ACA30030DD3C /* iGrid */,
 				B3EC8FC11AD776CD00CAC4C8 /* REMenu */,
-				B3EC8FB91AD6582400CAC4C8 /* KxMenu */,
 				B3BAAA061AD4B535005C6497 /* CLTreeView */,
 				B328B3031ACB948200554FAC /* KeyChainItemWrapper */,
 			);
@@ -275,6 +268,17 @@
 			path = KeyChainItemWrapper;
 			sourceTree = "<group>";
 		};
+		B32ABB5F1AF9ACA30030DD3C /* iGrid */ = {
+			isa = PBXGroup;
+			children = (
+				B32ABB601AF9ACA30030DD3C /* UIImageButton.h */,
+				B32ABB611AF9ACA30030DD3C /* UIImageButton.m */,
+				B32ABB621AF9ACA30030DD3C /* UITableGridViewCell.h */,
+				B32ABB631AF9ACA30030DD3C /* UITableGridViewCell.m */,
+			);
+			path = iGrid;
+			sourceTree = "<group>";
+		};
 		B36B6A0A1AD7B30600574A8F /* PersonInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +290,19 @@
 				B36B6A121AD7B35800574A8F /* DeviceBindingViewController.m */,
 			);
 			name = PersonInfo;
+			sourceTree = "<group>";
+		};
+		B388FB001ADB94E8002D2513 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				B3EC8FE01AD7774800CAC4C8 /* NavigationViewController.h */,
+				B3EC8FE11AD7774800CAC4C8 /* NavigationViewController.m */,
+				B3EC8FE31AD778C200CAC4C8 /* RootViewController.h */,
+				B3EC8FE41AD778C200CAC4C8 /* RootViewController.m */,
+				B3BAAA3D1AD4BA87005C6497 /* FunctionListViewController.h */,
+				B3BAAA3E1AD4BA87005C6497 /* FunctionListViewController.m */,
+			);
+			name = Index;
 			sourceTree = "<group>";
 		};
 		B3BAAA061AD4B535005C6497 /* CLTreeView */ = {
@@ -330,15 +347,6 @@
 				B3BAAA231AD4B535005C6497 /* the_arrow.png */,
 			);
 			path = image;
-			sourceTree = "<group>";
-		};
-		B3EC8FB91AD6582400CAC4C8 /* KxMenu */ = {
-			isa = PBXGroup;
-			children = (
-				B3EC8FBA1AD6582E00CAC4C8 /* KxMenu.h */,
-				B3EC8FBB1AD6582E00CAC4C8 /* KxMenu.m */,
-			);
-			name = KxMenu;
 			sourceTree = "<group>";
 		};
 		B3EC8FC11AD776CD00CAC4C8 /* REMenu */ = {
@@ -482,8 +490,10 @@
 				18A47B821AC3E1BC004E1F73 /* iPort.xcdatamodeld in Sources */,
 				B3EC8FDF1AD776FA00CAC4C8 /* REMenuItemView.m in Sources */,
 				B3EC8FDB1AD776FA00CAC4C8 /* RECommonFunctions.m in Sources */,
+				B32ABB641AF9ACA30030DD3C /* UIImageButton.m in Sources */,
 				B3EC8FDC1AD776FA00CAC4C8 /* REMenu.m in Sources */,
 				B328B3131ACB963C00554FAC /* DeviceSender.m in Sources */,
+				B32ABB651AF9ACA30030DD3C /* UITableGridViewCell.m in Sources */,
 				B3BAAA2C1AD4B535005C6497 /* CLTreeView_LEVEL2_Model.m in Sources */,
 				18A47B7F1AC3E1BC004E1F73 /* AppDelegate.m in Sources */,
 				18A47B7C1AC3E1BB004E1F73 /* main.m in Sources */,
@@ -496,10 +506,8 @@
 				B3BAAA3F1AD4BA87005C6497 /* FunctionListViewController.m in Sources */,
 				B3EC8FE21AD7774800CAC4C8 /* NavigationViewController.m in Sources */,
 				B328B3011ACB93FD00554FAC /* LoginViewController.m in Sources */,
-				B3EC8FBC1AD6582E00CAC4C8 /* KxMenu.m in Sources */,
 				B3BAAA2B1AD4B535005C6497 /* CLTreeView_LEVEL2_Cell.m in Sources */,
 				B36B6A0D1AD7B33D00574A8F /* ChangePersonInfoViewController.m in Sources */,
-				B3BAAA421AD51B26005C6497 /* IndexViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
