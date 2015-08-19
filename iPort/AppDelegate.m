@@ -18,13 +18,7 @@
 @end
 
 @implementation AppDelegate
-@synthesize DeviceToken;
-@synthesize Code_User;
-@synthesize DeviceBinding;
-@synthesize Code_Company;
-@synthesize Code_Department;
-@synthesize UserName;
-@synthesize Department;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
