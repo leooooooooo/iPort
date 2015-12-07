@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RootViewController.h"
 
-@interface ChangePersonInfoViewController : RootViewController
+@interface ChangePersonInfoViewController : UIViewController
 
 @end

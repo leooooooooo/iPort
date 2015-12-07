@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RootViewController.h"
 
-@interface DeviceBindingViewController : RootViewController
+@interface DeviceBindingViewController : UIViewController
 
 @end

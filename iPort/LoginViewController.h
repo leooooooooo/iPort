@@ -7,16 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Leo/Leo.h>
 
-#import "KeychainItemWrapper.h"
-
-@interface LoginViewController : UIViewController<UITextFieldDelegate>{
-
-    KeychainItemWrapper *wrapper;
-    KeychainItemWrapper *status;
-
+@interface LoginViewController : UIViewController<UITextFieldDelegate,PostDelegate>{
+    NSUserDefaults *KeyChain;
 }
-
 @property (retain, nonatomic) IBOutlet UISwitch *autologinswitch;
 @property (retain, nonatomic) IBOutlet UISwitch *keepkeyswitch;
 @property (strong, nonatomic) IBOutlet UITextField *ID;
